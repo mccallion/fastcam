@@ -3,8 +3,15 @@
 __all__ = ['say_hello', 'say_hello_twice', 'positive_affirmation']
 
 # Cell
-def say_hello(subject:str):
-    """Say hello to `subject`."""
+def say_hello(subject:str) -> str:
+    """Say hello to somebody.
+
+    Args:
+      subject: who to say hello to.
+
+    Returns:
+      A friendly greeting as a string.
+    """
     return f"Hello {subject}!"
 
 # Cell
