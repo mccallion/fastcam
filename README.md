@@ -39,5 +39,9 @@ say_hello_twice("Coco")
 
 
 ```python
-!nbdev_bui
+!nbdev_build_lib
 ```
+
+    Converted 00_core.ipynb.
+    Converted index.ipynb.
+
