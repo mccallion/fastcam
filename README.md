@@ -37,11 +37,3 @@ say_hello_twice("Coco")
     'Hello Coco! Hello Coco!'
 
 
-
-```python
-!nbdev_build_lib
-```
-
-    Converted 00_core.ipynb.
-    Converted index.ipynb.
-
